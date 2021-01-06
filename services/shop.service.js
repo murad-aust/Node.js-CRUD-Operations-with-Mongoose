@@ -15,7 +15,7 @@ module.exports.getById = id => {
 }
 
 
-module.exports.getById = (id, content) => {
+module.exports.updateById = (id, content) => {
   
     return Shop.findByIdAndUpdate(id, content);
 }
